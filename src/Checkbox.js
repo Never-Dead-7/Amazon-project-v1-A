@@ -2,7 +2,7 @@ import React from 'react'
 import './Checkbox.css'
 import Subtotal from './Subtotal.js'
 
-function Checkbox() {
+function Checkbox(){
     return (
         <div className="checkout">
       <div className="checkout--left">
