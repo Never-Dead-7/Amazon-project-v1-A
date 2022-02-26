@@ -2,7 +2,7 @@ const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
 const stripe = require("stripe")(
-  "sk_test_51KKlRiSBvCVcsa1IeKnlWZgGKgqy0LxdKmj1pLtwWoJ6L01nhTmI8O1Gb3aUI2KKdmRkciyr7lUTXnLFFMNLBSbf00TmxcuzHL"
+  ""
 );
 
 // const router = express.Router()
