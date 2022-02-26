@@ -2,7 +2,7 @@
 .home{
     display: flex;
     justify-content: center;
-    max-width: 1500px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     background: #EAEDED;
@@ -24,5 +24,12 @@
     position: relative;
     display: flex;
     justify-content: space-around;
-    top: -380px;
+    top: -280px;
 }
+
+@media only screen and (max-width: 1135px) {
+    .home__row {
+        display: flex;
+        flex-direction: column;
+    }
+  }

@@ -1,4 +1,4 @@
-.header{
+ .header{
     background-color: black;
     display: flex;
     align-items: center;
@@ -82,3 +82,13 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.link{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .header_search {
+        display: none;
+    }
+  }
